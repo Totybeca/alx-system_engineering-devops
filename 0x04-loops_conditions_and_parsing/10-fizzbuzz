@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env bash
 # displays numbers from 1 to 100. displays the number
 # FizzBuzz when the number is a multiple of 3 and 5
@@ -19,3 +20,26 @@ do
   echo "$num"
  fi
 done
+=======
+#!/usr/bin/env bash
+# displays numbers from 1 to 100. displays the number
+# FizzBuzz when the number is a multiple of 3 and 5
+# Fizz when the number is multiple of 3
+# Buzz when the number is a multiple of 5
+
+for num in {1..100}
+do
+ if (( num % 3 == 0 && num % 5 == 0 ))
+ then
+  echo "FizzBuzz"
+ elif (( num % 3 == 0 ))
+ then
+  echo "Fizz"
+ elif (( num % 5 == 0 ))
+ then
+  echo "Buzz"
+ else
+  echo "$num"
+ fi
+done
+>>>>>>> df43f0d9411ba8c1336bdf5f4821fa194edcaa87
