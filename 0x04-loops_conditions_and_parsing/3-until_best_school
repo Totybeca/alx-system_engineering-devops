@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env bash
 # script that displays Best School 10 times.
 
@@ -8,3 +9,15 @@ do
  echo "Best School"
  (( count++ ))
 done
+=======
+#!/usr/bin/env bash
+# script that displays Best School 10 times.
+
+count=0
+
+until [ $count -eq 10 ]
+do
+ echo "Best School"
+ (( count++ ))
+done
+>>>>>>> df43f0d9411ba8c1336bdf5f4821fa194edcaa87
