@@ -1,1 +1,1 @@
-0x0A configuration management
+0x0A configuration management project
