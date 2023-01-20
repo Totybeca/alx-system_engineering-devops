@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 onfigure ssh client so that you can connect to a server without typing a password.
 
 Host *
@@ -13,3 +14,16 @@ Host *
     IdentityFile ~/.ssh/school
 
     PasswordAuthentication no
+=======
+# ssh_config
+
+ Host *
+ PasswordAuthentication no
+ IdentityFile ~/.ssh/school
+ SendEnv LANG LC_*
+ HashKnownHosts yes
+ GSSAPIAuthentication yes
+ HostName 100.25.205.58
+ User ubuntu
+
+>>>>>>> 5b5443e27d46a2b2589c96f89a59749ae77f7325
