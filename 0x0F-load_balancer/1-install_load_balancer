@@ -33,8 +33,8 @@ frontend abnb
     default_backend abnb_backend
 backend abnb_backend
     balance roundrobin
-    server 73323-web-01 100.25.205.58:80 check
-    server 73323-web-02 100.25.215.159:80 check
+    server 73323-web-01	 54.89.108.98:80 check
+    server 73323-lb-01 54.173.43.14:80 check
     
 " >> /etc/haproxy/haproxy.cfg
 
