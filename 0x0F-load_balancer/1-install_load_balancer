@@ -17,7 +17,7 @@ frontend  toyin-frontend
 backend toyin-backend
         balance roundrobin
        server 73323-web-01 18.233.64.47 check
-        server 73323-web-02 100.26.172.134 check
+       server 73323-web-02 100.26.172.134 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
