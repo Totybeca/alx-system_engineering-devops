@@ -38,4 +38,6 @@ backend abnb_backend
 
 " >> /etc/haproxy/haproxy.cfg
 
-service haproxy start
+echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
+
+sudo service haproxy restart
